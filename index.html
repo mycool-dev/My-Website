@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Michael Edie - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <div class="header-left">
+          <img src="./logo-no-background.png" alt="logo" class="logo" />
+        </div>
+      </nav>
+      <div class="center-content">
+        <div class="title">
+          <p class="name">Michael Edie</p>
+          <p class="job-title">Frontend web developer</p>
+          <div class="buttons">
+            <a href="#about-me"><button class="button about-btn">about</button></a>
+            <a href="#technologies"><button class="button tech-btn">technologies</button></a>
+            
+            <a href="#contact"><button class="button contact-btn">contact</button></a>
+          </div>
+        </div>
+        <div class="header-central">
+          <div class="socials">
+            <a href="https://www.linkedin.com/in/michael-edie/" class="linked">
+              <div class="linkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+            </a>
+            <a href="https://twitter.com/mycool_dev">
+              <div class="twitter">
+                <i class="fa-brands fa-square-twitter"></i>
+              </div>
+            </a>
+            <a href="https://github.com/mycool-dev">
+              <div class="github">
+                <i class="fa-brands fa-github"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about-me">
+      <div class="about-me">
+        <div class="about-me-text">
+          <h2>About me</h2>
+          <p>
+            Hi, my name is Michael and I am a recent computer science graduate
+            living in London. Since graduating I have discovered a passion for frontend development.
+          </p>
+        </div>
+        <div class="about-me-picture">
+          <img
+            src="./selfie.jpg"
+            alt="Me at my graduation"
+            class="graduation-pic"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="technologies">
+        <div class="images-grid">
+            <i class="fa-brands fa-html5 tech-logo"></i>
+            <i class="fa-brands fa-css3-alt tech-logo"></i>
+            <i class="fa-brands fa-square-js tech-logo"></i>
+            <i class="fa-brands fa-react tech-logo"></i>
+            <i class="fa-brands fa-java tech-logo"></i>
+            <i class="fa-brands fa-sass tech-logo"></i>
+            <i class="fa-brands fa-bootstrap tech-logo"></i>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-form">
+        <p>Contact me</p>
+        <form action="https://formsubmit.co/michaeledie77@outlook.com" method="POST">
+            <input type="hidden" name="_subject" value="Email from your website!">
+            <input type="text" name="name" required placeholder="name">
+            <input type="email" name="email" required placeholder="email">
+            <textarea type="message" name="message" required placeholder="message" class="contact-message" rows="4" cols="50"></textarea>
+            <button type="submit">Send</button>
+       </form>
+        </div>
+    </section>
+    <footer>Website designed and created by Michael Edie</footer>
+    <script src="index.js"></script>
+  </body>
+</html>
