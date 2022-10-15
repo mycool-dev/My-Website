@@ -21,24 +21,23 @@
     />
   </head>
   <body>
-    <section class="header">
-      <nav>
-        <div class="header-left">
+    <section id="header-section">
+      <nav class="header-area">
+        <div class="header-logo">
           <img src="./logo-no-background.png" alt="logo" class="logo" />
         </div>
       </nav>
       <div class="center-content">
-        <div class="title">
+        <div class="hero-title">
           <p class="name">Michael Edie</p>
           <p class="job-title">Frontend web developer</p>
           <div class="buttons">
             <a href="#about-me"><button class="button about-btn">about</button></a>
             <a href="#technologies"><button class="button tech-btn">technologies</button></a>
-            
             <a href="#contact"><button class="button contact-btn">contact</button></a>
           </div>
         </div>
-        <div class="header-central">
+        <div class="hero-socials">
           <div class="socials">
             <a href="https://www.linkedin.com/in/michael-edie/" class="linked">
               <div class="linkedIn">
@@ -55,6 +54,11 @@
                 <i class="fa-brands fa-github"></i>
               </div>
             </a>
+            <a href="./CV.pdf" download>
+              <div class="cv">
+                <i class="fa-regular fa-file"></i>
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -62,8 +66,8 @@
     <section id="about-me">
       <div class="about-me">
         <div class="about-me-text">
-          <h2>About me</h2>
-          <p>
+          <p class="about-me-title">About me</p>
+          <p class="about-me-info">
             Hi, my name is Michael and I am a recent computer science graduate
             living in London. Since graduating I have discovered a passion for frontend development.
           </p>
@@ -71,8 +75,8 @@
         <div class="about-me-picture">
           <img
             src="./selfie.jpg"
-            alt="Me at my graduation"
-            class="graduation-pic"
+            alt="Picture of me on holiday"
+            class="headshot-pic"
           />
         </div>
       </div>
@@ -93,9 +97,9 @@
         <p>Contact me</p>
         <form action="https://formsubmit.co/michaeledie77@outlook.com" method="POST">
             <input type="hidden" name="_subject" value="Email from your website!">
-            <input type="text" name="name" required placeholder="name">
-            <input type="email" name="email" required placeholder="email">
-            <textarea type="message" name="message" required placeholder="message" class="contact-message" rows="4" cols="50"></textarea>
+            <input type="text" name="name" required placeholder="Name">
+            <input type="email" name="email" required placeholder="Email">
+            <textarea type="message" name="message" required placeholder="Message" class="contact-message" rows="4" cols="50"></textarea>
             <button type="submit">Send</button>
        </form>
         </div>
