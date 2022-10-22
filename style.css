@@ -125,6 +125,8 @@ p{
     display:flex;
     justify-content: center;
     background-color: #595959;
+    position: relative;
+    z-index: 0;
 }
 .images-grid{
     display:grid;
@@ -138,9 +140,39 @@ p{
    /* row-start / col-start / row-end / col-end; */
     grid-area: 3 / 2 / 4 / 3;
 }
+
 .tech-logo{
     font-size:150px;
+    transition: all 0.5s;
 }
+.tech-logo:hover{
+    cursor:pointer;
+    opacity:0.7;
+    transform:scale(1.05);
+}
+#hiddenText{
+    display: none;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(37, 41, 41, 0.9);
+    width:100%;
+    height:100%;
+    padding:6%;
+    animation: fadeIn 0.5s;
+}
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0%;
+    }
+    to {
+      opacity: 100%;
+    }
+  }
+
 #contact{
     display: flex;
     justify-content: center;
