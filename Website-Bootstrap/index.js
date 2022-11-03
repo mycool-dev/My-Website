@@ -2,6 +2,7 @@ const html = document.querySelector('.images-grid')
 const hiddenText= document.querySelector('#hiddenText')
 const tech = document.querySelector('#technologies')
 
+
 tech.onclick = function(e){
     
     const techVariable = e.target.id;
@@ -19,7 +20,7 @@ tech.onclick = function(e){
         hiddenText.style.display='block'
     }
     else if(techVariable === "react"){
-        hiddenText.innerHTML="<u>React</u> <br> Is my most recent skill I am learning, I believe I have a basic understanding of the framework, however due to my lack of experience using by no means am I an expert. I am learning new things every day with React"
+        hiddenText.innerHTML="<u>React</u> <br>React is my most recent skill I am learning, I believe I have a basic understanding of the framework, however due to my lack of experience by no means am I an expert. I am learning new things every day with React"
         hiddenText.style.display='block'
     }
     else if(techVariable === "java"){
@@ -38,4 +39,3 @@ tech.onclick = function(e){
         hiddenText.style.display='none'
     }
 }
-
