@@ -15,8 +15,7 @@
 </head>
 
 <body>
-    <!--DELETE THIS H1-->
-    <h1>test</h1>
+
     <!--Nav section-->
     <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
         <div class="container">
@@ -29,13 +28,13 @@
             <div class="collapse navbar-collapse" id="navbar-toggle">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="#learn" class="nav-link">About</a>
+                        <a href="#about-me" class="nav-link">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#teachers" class="nav-link">Technologies</a>
+                        <a href="#technologies" class="nav-link">Technologies</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact" class="nav-link">Projects</a>
+                        <a href="#projects" class="nav-link">Projects</a>
                     </li>
                     <li class="nav-item">
                         <a href="#contact" class="nav-link">Contact</a>
@@ -87,7 +86,7 @@
     </section>
 
     <!--About me-->
-    <section class="text-light sec-2 p-5">
+    <section class="text-light sec-2 p-5" id="about-me">
         <div class="container">
             <div class="row">
                 <div class="col-md col-lg-8 d-flex flex-column justify-content-center">
@@ -99,7 +98,7 @@
                         projects for my portfolio which you can find below.
                     </p>
                 </div>
-                <div class="col-md col-lg-4 d-flex justify-content-center mt-sm-5 mt-md-0">
+                <div class="col-md col-lg-4 d-flex justify-content-center mt-3 mt-lg-0">
                     <img src="./selfie.jpg" alt="Picture of me on holiday" class="headshot-pic" />
                 </div>
             </div>
@@ -107,7 +106,7 @@
     </section>
 
     <!--technologies-->
-    <section class="text-light sec-3 p-5 position-relative">
+    <section class="text-light sec-3 p-5 position-relative" id="technologies">
         <div id="technologies">
             <div class="container">
                 <div class="row">
@@ -127,7 +126,7 @@
     </section>
 
     <!--Projects-->
-    <section class="sec-4 p-5">
+    <section class="sec-4 p-5" id="projects">
         <div class="container">
             <div class="row">
                 <h1 class="text-center text-light mb-5">Projects</h1>
@@ -145,7 +144,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg d-flex justify-content-center">
+                <div class="col-lg d-flex justify-content-center mt-3 mt-lg-0">
                     <div class="card text-center">
                         <img class="card-img-top p-2 rounded-4" src="./Screenshot 2022-11-03 at 23.20.21.png"
                             alt="screenshot of project 1 (frontend developer bootcamp mockup)">
@@ -160,17 +159,17 @@
         </div>
     </section>
 
-    <section class="sec-5 p-5">
+    <section class="sec-5 pt-2 p-lg-5" id="contact">
         <div class="container">
             <div class="row">
-                <div class=" offset-3 col-6">
+                <div class="offset-md-3 col-md-6">
                     <h1 class="text-center mb-3 text-light">Contact Me</h1>
                     <form action="https://formsubmit.co/michaeledie77@outlook.com" method="POST">
                         <input type="hidden" name="_subject" value="Email from your website!">
                         <input type="text" name="name" required placeholder="Name">
                         <input type="email" name="email" required placeholder="Email">
                         <textarea type="message" name="message" required placeholder="Message" class="contact-message"
-                            rows="4" cols="50"></textarea>
+                            rows="4" cols="60"></textarea>
                         <button type="submit">Send</button>
                     </form>
                 </div>

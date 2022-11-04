@@ -16,7 +16,7 @@ tech.onclick = function(e){
         hiddenText.style.display='block'
     }
     else if(techVariable === "js"){
-        hiddenText.innerHTML="<u>HTML</u> <br> Because of my regular usage of Java, migrating over to Javascript was not as challenging as I had first imagined. I believe I have all the fundamentals and continue to learn every day of using it."
+        hiddenText.innerHTML="<u>Javascript</u> <br> Because of my regular usage of Java, migrating over to Javascript was not as challenging as I had first imagined. I believe I have all the fundamentals and continue to learn every day of using it."
         hiddenText.style.display='block'
     }
     else if(techVariable === "react"){
